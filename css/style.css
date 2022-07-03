@@ -226,11 +226,12 @@ body {
   color: rgba(47, 34, 34, 0.4);
 }
 
-.blog-post__data {
+.blog-post__date {
   position: absolute;
   right: var(--grid-gap);
   top: var(--grid-gap);
   font-size: 16px;
+  line-height: 21;
   color: rgba(47, 34, 34, 0.4);
 }
 
@@ -269,7 +270,7 @@ body {
   color: #fff;
 }
 
-.post-grid__item:nth-child(5n + 2) .blog-post__data {
+.post-grid__item:nth-child(5n + 2) .blog-post__date {
   top: auto;
   right: auto;
   bottom: var(--grid-gap);
@@ -296,7 +297,7 @@ body {
   color: #fff;
 }
 
-.post-grid__item:nth-child(5n + 3) .blog-post__data {
+.post-grid__item:nth-child(5n + 3) .blog-post__date {
   top: auto;
   right: auto;
   bottom: var(--grid-gap);
@@ -313,7 +314,7 @@ body {
   padding-bottom: 30px;
 }
 
-.post-grid__item:nth-child(5n + 4) .blog-post__data {
+.post-grid__item:nth-child(5n + 4) .blog-post__date {
   top: 30px;
 }
 
@@ -334,7 +335,7 @@ body {
   padding-bottom: 30px;
 }
 
-.post-grid__item:nth-child(5n + 5) .blog-post__data {
+.post-grid__item:nth-child(5n + 5) .blog-post__date {
   top: 30px;
 }
 
@@ -398,7 +399,7 @@ body {
   margin-bottom: 10px;
 }
 
-.popular-post__article .blog-post__data {
+.popular-post__article .blog-post__date {
   font-size: 21px;
   line-height: 23px;
   position: initial;
